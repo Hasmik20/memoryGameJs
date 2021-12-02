@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+.container {
+    width: 80%;
+    margin: 5% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gameCard {
+    display: flex;
+    height: 250px;
+    width: 250px;
+    background: #e0ebeb;
+    margin-bottom: 16px;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+   
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+.clicked{
+    color: red;
+}
+
